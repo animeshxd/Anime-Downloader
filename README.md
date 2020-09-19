@@ -15,4 +15,5 @@ A simple Anime Downloader
     - `HandBrakeCLI -i *.ts -o output.mp4`
     - `HandBrakeCLI -i *.ts -O  -w 720 -l 480 -q  21 -o output.mp4` -480p compressed
     - `for i in *.ts; do HandBrakeCLI -i "$i" -O -w 640 -l 360 -q 21 -o "${i%.*}.mp4"; done` --convert multiple ts files to mp4 using HandbreakCLI
+  - #### or Try [HandBrake](https://handbrake.fr/downloads.php) GUI on Windows | Linux | MAC
    
