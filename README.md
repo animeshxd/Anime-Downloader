@@ -1,7 +1,7 @@
 # Anime-Downloader
 A simple Anime Downloader
 
-![image](https://animeshxd.github.io/private/photo_2020-09-19_11-36-08.jpg =400x300
+![image](https://animeshxd.github.io/private/photo_2020-09-19_11-36-08.jpg =400pxx300px
 )
 
  ##  Gogo-stream Anime downloader
