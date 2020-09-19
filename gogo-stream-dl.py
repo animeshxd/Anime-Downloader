@@ -12,9 +12,10 @@ import string
 import m3u8
 import time
 
+#by Animeshxd https://github.com/animeshxd/
 
 Quality = input(
-    "Select Quality :\n\t0: 360p Quality\n\t1: 480p Quality\n\t2: 720p Quality\n\t3: 1080p Quality\n\t> ")
+    "Version 1:\nSelect Quality :\n\t0: 360p Quality\n\t1: 480p Quality\n\t2: 720p Quality\n\t3: 1080p Quality\n\t> ")
 
 
 search = input("Search Anime Name: ")
