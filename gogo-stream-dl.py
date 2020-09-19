@@ -127,6 +127,9 @@ while search_loop_main:
 
                     if Anime_Episode_to.isdigit():
                         select_b = True
+                    else:
+                        select_b = False
+                        Anime_All = True
 
                     if Anime_Episode_to == 'a':
                         Anime_All = True
@@ -212,6 +215,8 @@ while search_loop_main:
                     if Anime_Episode_to == str(Anime_Episode-1):
                       # print(Anime_Episode_to)
                         break
+                else:
+                    print('')
 
                 Anime_Name_Full = f"{Anime_Name}_{Anime_Episode}"
                 # print(Anime_Name_Full)
