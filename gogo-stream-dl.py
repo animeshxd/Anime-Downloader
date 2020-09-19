@@ -138,7 +138,7 @@ while search_loop_main:
 
 
 
-
+#by Animeshxd https://github.com/animeshxd/
 ####################################################
 
 
@@ -194,7 +194,7 @@ while search_loop_main:
                 os.makedirs(f"./Anime_downloader/{Anime_Name}")
                 break
 
-
+#by Animeshxd https://github.com/animeshxd/
 
 
             while Main_Loop:
@@ -390,7 +390,7 @@ while search_loop_main:
                     sess = requests.Session()
                     Anime_download_path_ts = Anime_download_path.split('.')
                     Anime_download_path = Anime_download_path.replace(f"{Anime_download_path_ts[-1]}","ts")
-
+#by Animeshxd https://github.com/animeshxd/
 
                     with open(Anime_download_path, 'wb') as f:
                         
@@ -422,7 +422,7 @@ while search_loop_main:
                                 sys.stdout.flush()
                                 # sys.stdout.write("\r[%s%s]"% ('*' * done, '.' * (40-done)))
                                 # sys.stdout.flush()
-
+#by Animeshxd https://github.com/animeshxd/
 
             print("last")
             
@@ -442,6 +442,6 @@ while search_loop_main:
     else:
         print("Sayonara")
         break
-
+#by Animeshxd https://github.com/animeshxd/
 
 # /html/body/ul/li[1]/a
