@@ -5,6 +5,7 @@ A simple Anime Downloader
    - Required: python3 
    - `pip3 install m3u8 bs4 html5lib`
    - make sure you are not running this code inside root directory as it will create ./Anime_downloader folder
+   
  ## Convert ts to mp4 
    - `ffmpeg -i *.ts -map 0 -c copy output.mp4` --MPEG2 to MP4 converter using https://ffmpeg.org/
    - `for i in *.ts; do ffmpeg -i "$i" "${i%.*}.mp4" -map 0 -c copy; done` --convert multiple ts files to mp4 using FFMPEG [Android|Linux]
