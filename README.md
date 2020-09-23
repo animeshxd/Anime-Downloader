@@ -1,5 +1,5 @@
 # Anime-Downloader
-A simple Anime Downloader
+A simple Anime Downloader BULK
 
 
  ##  Gogo-stream Anime downloader
