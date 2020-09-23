@@ -6,7 +6,6 @@ import ast
 import os
 import os.path
 from os import path
-import requests
 import sys
 import string
 import m3u8
@@ -51,13 +50,14 @@ def IfFailed():
             if str(search_t.findAll('a')) == "[]":
                 print("Anime not found")
                 list_i_loop_next = False
+
                 break
 
             for node in search_t.findAll('a'):
 
                 Count_t = Count_t + 1
                 rslt2 = ''.join(node.findAll(text=True))
-                rslt2 = (rslt2.replace("<\\/a><\/li>", ""))
+                rslt2 = (rslt2.replace("<\\/a><\\/li>", ""))
                 rslt2 = rslt2.replace('<\\/ul>"}', '')
 
                 
@@ -132,8 +132,8 @@ def IfFailed():
                             select_b = False
                             
 
-                        if Anime_Episode_to == 'a':
-                            Anime_All = True
+                        # if Anime_Episode_to == 'a':
+                            # Anime_All = True
 
                     else:
                         print("Downloading All Episode..")
@@ -144,7 +144,6 @@ def IfFailed():
 
     #by Animeshxd https://github.com/animeshxd/
     ####################################################
-
 
 
                     # print("without ep:",Anime_Url)
@@ -169,12 +168,11 @@ def IfFailed():
                 else:
                     list_i = 0
                 break
-
+                    
+                    ####################################################
             if list_i_loop_next:
 
-                ############################################################################################################################################################
-
-                # print("hi",Anime_Name)
+                
 
                 Anime_Url = f"https://gogo-stream.com{Anime_Url}"
 
