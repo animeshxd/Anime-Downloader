@@ -9,7 +9,7 @@ A simple Anime Downloader BULK
    - Use VLC to play .ts file
    - [Preview](https://animeshxd.github.io/private/Preview.mp4)
 ## Required Python Version
-   - Python 3 <img src="https://www.python.org/favicon.ico" width="50%" height="50%">
+   - Python 3 <img src="https://www.python.org/favicon.ico" width="10px" height="10px">
 
    
 
