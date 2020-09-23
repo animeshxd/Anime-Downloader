@@ -20,7 +20,6 @@ def IfFailed():
 
     search = input("Search Anime Name: ")
 
-
     url = f"https://gogo-stream.com/ajax-search.html?keyword={search}"  # url
     url = url.replace(" ", "%20")  # replace userinput 'space' with %20
 
