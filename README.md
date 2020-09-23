@@ -6,9 +6,11 @@ A simple Anime Downloader
    - Required: python3 
    - `pip3 install m3u8 bs4 html5lib`
    - make sure you are not running this code inside root directory as it will create ./Anime_downloader folder
+   - Use VLC to play .ts file
    - [Preview](https://animeshxd.github.io/private/Preview.mp4)
 ## Required Python Version
    - Python 3
+
    
 
    
