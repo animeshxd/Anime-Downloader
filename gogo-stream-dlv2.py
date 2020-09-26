@@ -107,7 +107,7 @@ def IfFailed():
                     # https://vidstreaming.io/videos/
 
                     # \"\/videos\/xxxholic-the-movie-a-midsummer-nights-dream-episode-1\"
-                    print(linkisgood, " test")
+                    #print(linkisgood, " test")
 
                     Anime_Url = linkisgood
 
