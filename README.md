@@ -4,7 +4,7 @@ A simple Anime Downloader BULK
 
  ##  Gogo-stream Anime downloader
    - Required: python3 
-   - `pip3 install m3u8 bs4 html5lib`
+   - `pip3 install m3u8 bs4 html5lib lxml`
    - make sure you are not running this code inside root directory as it will create ./Anime_downloader folder
    - Use VLC to play .ts file
    - [Preview](https://animeshxd.github.io/private/Preview.mp4)
