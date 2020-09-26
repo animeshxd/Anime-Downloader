@@ -339,7 +339,7 @@ def IfFailed():
                                       else:
                                           mb = int((os.stat(Anime_download_path).st_size) / 1e+6)
 
-                                      sys.stdout.write("\r %s/%2.fMB[%s%s]" % (mb, total_length / 1e+6, '█' * done, ' ' * (40-done)))
+                                      sys.stdout.write("\r %s/%2.fMB|%s%s|" % (mb, total_length / 1e+6, '█' * done, ' ' * (40-done)))
                                       sys.stdout.flush()
 
                       else:
