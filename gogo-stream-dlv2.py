@@ -306,7 +306,7 @@ def IfFailed():
                       # print("mp4 : ",stream_json_Status_mp4)
                       # print("m3u8: ",stream_json_Status_m3u8)
 
-                      if stream_json_1_Status_mp4 == True:  # nobk
+                      if stream_json_1_Status_mp4 == True or ("mp4" in stream_json_1):  # nobk
                           # stream_json_url = stream_json_1
 
                           with open(Anime_download_path, "wb") as f:
